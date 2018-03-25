@@ -12,5 +12,13 @@ namespace HappyClean.Controllers
         {
             return View();
         }
+        public ActionResult kontakt()
+        {
+            return View();
+        }
+        public ActionResult cennik()
+        {
+            return View();
+        }
     }
 }

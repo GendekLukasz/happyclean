@@ -10,32 +10,67 @@
   font-family: Metropolis-medium;
   src: url(../fonts/Metropolis-Medium.otf); }
 
+h1 {
+  font-size: 16px;
+  font-family: Metropolis-regular;
+  color: #E4E8EB; }
+
+h2 {
+  font-size: 16px;
+  font-family: Metropolis-semibold;
+  color: #E4E8EB; }
+
+h3 {
+  font-family: Metropolis-regular;
+  font-size: 12px;
+  color: #E4E8EB;
+  margin: 0 10px 0 10px; }
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto; }
+
 body {
   padding: 0;
   margin: 0;
   height: 100%; }
 
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-  width: 50%; }
-  nav ul a {
-    font-size: 15px;
-    font-family: Metropolis-regular;
-    text-decoration: none; }
-    nav ul a:hover {
-      text-decoration: none; }
+a {
+  color: #000000; }
 
-nav li {
-  display: inline-block; }
+a:visited {
+  text-decoration: none;
+  color: #000000; }
+
+a:active {
+  text-decoration: none;
+  color: #000000; }
+
+nav {
+  position: fixed;
+  background-color: white;
+  width: 98%;
+  top: 0px; }
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 50%; }
+    nav ul a {
+      font-size: 15px;
+      font-family: Metropolis-regular;
+      text-decoration: none; }
+      nav ul a:hover {
+        text-decoration: none; }
+  nav li {
+    display: inline-block; }
 
 .wrapper {
   align-items: center;
   display: flex;
   justify-content: space-between;
-  margin-right: 5%;
-  margin-left: 5%; }
+  padding-left: 20px;
+  padding-right: 70px; }
 
 #menu-toggle {
   display: none; }
@@ -67,7 +102,7 @@ nav li {
     font-size: 1.5em; }
   #menu-toggle:checked ~ ul {
     z-index: 2;
-    margin-left: auto;
+    margin-right: 20px;
     opacity: 1;
     visibility: visible; }
   .label-toggle {
@@ -87,6 +122,10 @@ nav li {
     border: none !important;
     padding: 10px 20px 10px 20px; } }
 
+@media screen and (max-width: 1000px) {
+  #kom2 {
+    display: none; } }
+
 .logo {
   margin: 1em 0;
   display: inline-block; }
@@ -99,8 +138,14 @@ nav li {
   border-radius: 28px;
   padding: 10px 20px 10px 20px; }
 
+.arrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
 .slider {
   display: flex;
+  margin-top: 74.5px;
   height: 50vh;
   width: 100%;
   background: url(Zdjecia/PhotoDopierzemyTo/slajder_1.png);
@@ -108,8 +153,14 @@ nav li {
   background-size: cover;
   border-radius: 5px; }
 
-.slider-leftside {
-  width: 100%;
+.visible {
+  display: block; }
+
+.non-visible {
+  display: none !important; }
+
+.slider-center {
+  width: 80%;
   margin-top: 8vh;
   margin-left: 3vw;
   margin-right: auto;
@@ -119,32 +170,58 @@ nav li {
   justify-content: space-around;
   align-items: flex-start; }
 
-.slider-leftside-text-small {
+.slider-leftside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%; }
+
+.slider-leftside:hover {
+  cursor: pointer; }
+
+.slider-rightside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%; }
+
+.slider-rightside:hover {
+  cursor: pointer; }
+
+.slider-center-text-small {
   font-family: Metropolis-regular;
   color: white;
   font-size: 14px; }
 
-.slider-leftside-text-big {
+.slider-center-text-big {
   font-family: Metropolis-semibold;
   color: white;
   font-size: 37px; }
 
-.slider-leftside-text-big-type {
+.slider-center-text-big-type {
   font-family: Metropolis-semibold;
   color: white;
   font-size: 37px; }
 
-.slider-leftside-button {
+.slider-center-button {
   font-family: Metropolis-medium;
   color: white;
   font-size: 15px;
   padding: 17.5px 17px 17.5px 17px;
   border: none;
   border-radius: 28px;
-  background-color: #4487F4; }
+  background-color: #4487F4;
+  cursor: pointer; }
 
-.slider-leftside-button:hover {
+.slider-center-button:hover {
   text-decoration: none; }
+
+.slider-center-check {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .slider-center-check svg {
+    padding: 0 7px 0 7px; }
 
 /*.slider-rightside{
   margin-right:5vw;
@@ -161,7 +238,7 @@ nav li {
   margin-top: 5%;
   justify-content: center;
   font-family: Metropolis-regular;
-  font-size: 5vh;
+  font-size: 33px;
   color: #2F3E4C; }
 
 .our-services {
@@ -249,7 +326,7 @@ nav li {
 
 .three-reasons {
   color: #2F3E4C;
-  font-size: 3vw;
+  font-size: 33px;
   display: flex;
   font-family: Metropolis-regular;
   justify-content: center;
@@ -354,7 +431,7 @@ nav li {
 .questions {
   display: flex;
   justify-content: center;
-  margin-top: 20%;
+  margin-top: 250px;
   font-family: Metropolis-regular;
   color: #2F3E4C;
   font-size: 33px; }
@@ -438,11 +515,69 @@ input[type=text] {
   font-size: 15px; }
 
 #name {
-  margin-right: 2%; }
+  max-width: 300px; }
 
 #mail {
-  margin-left: 2%; }
+  max-width: 300px; }
 
 #message {
   height: 150px; }
+
+.footer {
+  background-color: #201C34;
+  width: 100%;
+  margin-top: 50px;
+  height: 600px;
+  display: flex;
+  justify-content: center; }
+
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 1180px; }
+
+.footer-box-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 2px solid #2F3E4C;
+  margin-top: 50px;
+  height: 350px; }
+
+.footer-box-info-col1 {
+  width: 370px; }
+
+.footer-box-info-col2 {
+  width: 470px; }
+
+.footer-box-info-col3 {
+  width: 270px; }
+
+.footer-box-logoFB {
+  height: 200px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between; }
+
+.left {
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+  justify-content: space-between; }
+
+.right {
+  display: flex;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: space-between; }
+
+.link-footer {
+  text-decoration: none;
+  color: #4989F4;
+  font-family: Metropolis-regular;
+  font-size: 16px; }
+
+.inline {
+  display: flex;
+  align-items: center; }
 
