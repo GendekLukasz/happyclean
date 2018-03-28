@@ -26,8 +26,22 @@ h3 {
   color: #E4E8EB;
   margin: 0 10px 0 10px; }
 
+h4 {
+  font-size: 16px;
+  font-family: Metropolis-regular;
+  color: #2F3E4C; }
+
+h5 {
+  font-size: 16px;
+  font-family: Metropolis-semibold;
+  color: #2F3E4C; }
+
 .container {
   max-width: 1280px;
+  margin: 0 auto; }
+
+.container-contact {
+  max-width: 1150px;
   margin: 0 auto; }
 
 body {
@@ -133,9 +147,33 @@ nav {
 .services-nav {
   position: fixed;
   width: 100%;
-  height: 100px;
+  height: 150px;
   background-color: white;
-  border-top: 3px solid #E4E8EB; }
+  border-top: 3px solid #E4E8EB;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline; }
+
+.services-nav-box {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60px;
+  max-width: 1260px; }
+  .services-nav-box a {
+    text-decoration: none;
+    color: #2F3E4C; }
+
+.big {
+  font-family: Metropolis-regular;
+  font-size: 28px;
+  color: #2F3E4C; }
+
+.small {
+  font-family: Metropolis-regular;
+  font-size: 14px;
+  color: #2F3E4C; }
 
 .button-uslugi {
   padding: 27.75px; }
@@ -155,6 +193,12 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center; }
+
+.line-under-nav {
+  margin-top: 74.5px;
+  height: 3px;
+  width: 100%;
+  background-color: #E4E8EB; }
 
 .slider {
   display: flex;
@@ -495,14 +539,12 @@ nav {
   font-size: 33px; }
 
 .contact-boxes-row {
-  width: 60%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; }
 
 .contact-boxes-row-contact {
   margin-top: 2%;
-  width: 60%;
   display: flex;
   justify-content: center; }
 
@@ -526,12 +568,6 @@ input[type=text] {
   color: #ABB0B3;
   font-family: Metropolis-regular;
   font-size: 15px; }
-
-#name {
-  max-width: 300px; }
-
-#mail {
-  max-width: 300px; }
 
 #message {
   height: 150px; }
@@ -593,4 +629,64 @@ input[type=text] {
 .inline {
   display: flex;
   align-items: center; }
+
+.contact-address {
+  margin-left: 5px;
+  margin-top: 5px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  font-family: Metropolis-medium;
+  font-size: 12px;
+  color: #DFE2E5;
+  border-bottom: 1px solid #E4E8EB; }
+
+.contact-address:after {
+  color: #2F3E4C;
+  content: "Kontakt "; }
+
+.contact-title-tab {
+  font-family: Metropolis-semibold;
+  font-size: 44px;
+  color: #2F3E4C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 180px;
+  width: 100%; }
+
+.contact-text {
+  margin-left: 80px;
+  margin-top: 20px; }
+
+.contact-box {
+  width: 100%;
+  display: flex; }
+
+.contact-box-left {
+  background-color: #F5F9FD;
+  width: 50%;
+  height: 600px; }
+
+.contact-box-right {
+  width: 50%;
+  height: 600px; }
+
+.contact-box-title {
+  margin-left: 80px;
+  margin-top: 50px;
+  font-family: Metropolis-Regular;
+  font-size: 33px;
+  color: #2F3E4C; }
+
+.contact-form-box {
+  margin-top: 50px;
+  margin-left: 80px;
+  width: 80%; }
+
+.contact-boxes-row-contact-left {
+  margin-top: 20px;
+  width: 100px;
+  display: flex;
+  justify-content: flex-start; }
 
