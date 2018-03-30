@@ -20,5 +20,9 @@ namespace HappyClean.Controllers
         {
             return View();
         }
+        public ActionResult polimeryzacja()
+        {
+            return View();
+        }
     }
 }
