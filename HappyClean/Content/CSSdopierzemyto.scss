@@ -535,42 +535,49 @@ nav {
      font-size:16px;
     font-family:Metropolis-regular;
     color:#53595F;
+
+ 
+    line-height: 26px;
 }
 .opinons{
-    background-color:#4487F4;
-    display:flex;
-    height:400px;
+    margin-top:100px;
+   
+
+   
     border-radius:5px;
 
     flex-direction:column;
+}
+.opinon-backblue{
+         background-color:#4487F4;
+    width:100%;
+    height:400px;
+     z-index:-1;
 }
 .opinons-title{
     text-align:center;
     color:white;
     font-family:Metropolis-regular;
     font-size:33px;
-    margin-top:20%;
+    margin-top:-350px;
 }
 .opinons-boxies{
-    margin-top:20%;
+    margin-top:50px;
     flex-direction:row;
     flex-wrap:wrap;
     display:flex;
-    justify-content:space-around;
+    justify-content:center;
 }
-.opinons-persons-box{
-    height:400px;
-     width: 500px;
-     display:flex;
-    flex-direction:column;
-    justify-content:space-between
-}
+
 .opinons-box{
+    display:flex;   
     height:300px;
-     width: 500px;
+     width: 550px;
+
+     margin:30px 15px 0 15px;
     background-color:white;
-    border-radius:5px;
-    display:flex;
+    border-radius:8px;
+  
     flex-direction:column;
    
     align-items:flex-start;
@@ -578,21 +585,25 @@ nav {
    }
 
 .opinons-quotation{
-   margin-top:15%;
-   margin-left:7%;
+   margin-top:30px;
+   margin-left:30px;
 
 }
 .opinon{
-    margin-top:15%;
-     margin-left:7%;
-     margin-right:10%;
+     margin-top:30px;
+   margin-left:45px;
+   margin-right:45px;
     font-family:Metropolis-regular;
-    font-size:16px;
-    color:#53595F;
+   font-size: 15px;
+    color: #53595F;
+    line-height: 26px;
 }
 .person-right{
- margin-top:auto;
-  margin-left:auto;
+
+    margin-left:auto;
+    margin-top:auto;
+      margin-bottom:40px;
+  margin-right:40px;
 
     align-items:center;
     display:flex;
@@ -600,7 +611,10 @@ nav {
 
 }
 .person-left{
-       margin-top:auto;
+      
+     margin-top:auto;
+       margin-bottom:40px;
+       margin-left:40px;
     align-items:center;
     display:flex;
 
@@ -610,15 +624,17 @@ nav {
   
 }
 .person-name{
-    font-family:Metropolis-medium;
-    font-size:16px;
+   font-family: Metropolis-Medium;
+    font-size: 16px;
+    color: #2F3E4C;
     margin-left:10px;
     margin-right:10px;
 }
 .questions{
+
     display:flex;
     justify-content:center;
-    margin-top:250px;
+    margin-top:50px;
     font-family:Metropolis-regular;
     color: #2F3E4C;
     font-size:33px;
@@ -1099,6 +1115,31 @@ input[type=text] {
     height:180px;
     width:100%;
 }
+  .services-title-gray{
+      margin-top:100px;
+            margin-bottom:50px;
+        font-family: Metropolis-Regular;
+        font-size: 33px;
+        color: #2F3E4C;
+        text-align: center;
+        line-height: 52px;
+}
+  .description-bolt{
+      margin-top:100px;
+      margin-left:10%;
+   font-family: Metropolis-SemiBold;
+    font-size: 24px;
+    color: #2F3E4C;
+  }
+  .description-normal{
+       margin-top:35px;
+       margin-left:10%;
+         font-family: Metropolis-Regular;
+    font-size: 15px;
+    color: #53595F;
+    max-width:900px;
+    line-height: 28px;
+  }
 
   .range-box-text-services{
     font-family:Metropolis-regular;
@@ -1106,7 +1147,54 @@ input[type=text] {
     padding-right:10px;
     line-height: 25px;
 }
+  .advantages{
+      margin-top:100px;
+      display:flex;
+      background: #F5F9FD;
+      width:100%;
+    
+      flex-direction:column;
+      justify-content:space-around;
+      align-items:center;
 
+  }
+  .advantages-title{
+      font-family: Metropolis-Medium;
+    font-size: 26px;
+    color: #2F3E4C;
+    text-align: center;
+    line-height: 40px;
+    max-width:800px;
+    margin:50px 0 50px 0;
+  }
+  .advantages-boxes{
+      display:flex;
+      flex-wrap:wrap;
+      align-items:baseline;
+      justify-content:space-around;
+      margin-bottom:50px;
+  }
+  .advantages-box{
+      display:flex;
+      flex-direction:column;
+      justify-content:space-around;
+      align-items:center;
+      width:500px;
+      margin-top:50px;
+  }
+  .advantages-box-boldtext{
+      font-family: Metropolis-SemiBold;
+    font-size: 16px;
+    color: #2F3E4C;
+  }
+  .advantages-box-normaltext{
+      font-family: Metropolis-Regular;
+    font-size: 15px;
+    color: #53595F;
+    text-align: center;
+    line-height: 23px;
+    width:300px;
+  }
    //----POLIMERYZACJA
 
    
@@ -1125,7 +1213,16 @@ input[type=text] {
 .polimeryzacja-address:after{
   
      color:#2F3E4C;
-     content:"Cennnik ";
+     content:"Polimeryzacja podłóg typu: PCV i linoleum ";
   
      
+}
+.polimeryzacja-photo{
+    margin-top:50px;
+    background-image:url(Zdjecia/PhotoDopierzemyTo/living-room.jpg);
+       width:100%;
+      height:500px;
+    background-position:center;
+    background-size:cover;
+    border-radius:5px;
 }
