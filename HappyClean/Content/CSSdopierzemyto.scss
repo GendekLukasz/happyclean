@@ -76,20 +76,73 @@ a:active{
     text-decoration:none;
     color:#000000;
 }
+.mobile-icon{
+    border:none;
+    background-color:white;
+    display:none;
+    margin-left:auto;
+}
+.button-uslugi
+ {
+        margin-left:auto;
+         font-size:15px;
+      font-family:Metropolis-regular;
+      text-decoration: none;
+      display:flex;
+      align-items:center;
 
+      &:hover {text-decoration:none;}
+    }
+.button-cennik{
+     margin-left:20px;
+          font-size:15px;
+      font-family:Metropolis-regular;
+      text-decoration: none;
+
+
+      &:hover {text-decoration:none;}
+}
+.button-contact1{
+       margin-left:20px;
+          font-size:15px;
+      font-family:Metropolis-regular;
+      text-decoration: none;
+
+
+      &:hover {text-decoration:none;}
+    }
+.button-uslugi:hover{
+    color:#4487F4;
+}
+.button-contact2{
+    margin-left:25px;
+    font-size:15px;
+  font-family:Metropolis-regular;
+    color:#4487F4 !important;
+    border: solid 1.5px #4487F4;
+    border-radius:28px;
+    padding:10px 20px 10px 20px;
+    text-decoration:none;
+}
+.arrow{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
 nav {
     position:fixed;
-    
+    display:flex;
+    align-items:center;
     background-color:white;
-    width:98%;
+    width:100%;
     top:0px;
     z-index:3;
    
   ul {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     list-style-type: none;
-    width: 50%;
+    flex-wrap:wrap;
     
     a {
       font-size:15px;
@@ -103,85 +156,55 @@ nav {
 
   li  {
     display: inline-block;
+          margin:10px 15px 10px 15px;
+
   }
  }
   .wrapper {
 
     align-items: center;
     display: flex;
+    flex-wrap:wrap;
     justify-content: space-between;
    padding-left:20px;
    padding-right:70px;
    
    
   }
- #menu-toggle {display: none;}
+  #number1{
+            display:none !important;
+  }
 
-.label-toggle {display: none;}
+@media screen and (max-width: 1000px){
+    .button-uslugi
+ {
+    display:none;
 
-@media screen and (max-width: 768px){
-    nav {
-      ul {
-        a {
-          color: black;
-          margin:0.2em 0;
-          z-index:10;
-        }
-      }
     }
-    ul {
-        
-      display: flex;
-      flex-direction:column;
-      justify-content:space-around;
-      height: 0;
-      list-style-type: none;
-      opacity: 0;
-      text-align: center;
-     margin-top:-18px;
-      width: 100%;
-      visibility: hidden;
-    }
-    
-    li {
-         background-color:white;
-      border-bottom: 1px solid #2F3E4C !important;
-      color: #2F3E4C !important;
-      display: block;
-      
-      font-size: 1.5em;
-    
-    }
-  
-    #menu-toggle:checked ~ ul {
-        z-index:2;
-    margin-right:20px;
-      opacity: 1;
-   
-      visibility: visible;
-    }
-    
-    .label-toggle {
-      background: linear-gradient(to bottom, $color1 0%, $color1 20%, transparent 20%, transparent 40%, $color1 40%, $color1 60%, transparent 60%, transparent 80%, $color1 80%, $color1 100%); //Gradient Hamburger
-      cursor: pointer;
-      display: block;
-      float: right;
-      height: 35px;
-      margin-top: 1em;
-      width: 35px;
-    }
-    
-    .wrapper {display: block;}
-    .button-contact2{
-    font-size:15px;
-  font-family:Metropolis-regular;
-    color:black !important;
-    border:none !important;
-  
-    padding:10px 20px 10px 20px;
+.button-cennik{
+    display:none;
 }
-  
+.button-contact1{
+    display:none;
+    }
 
+.button-contact2{
+    display:none;
+}
+    .mobile-icon{
+
+    display:block;
+}
+   .logo-after{
+              display:none !important;
+       
+   }
+    #number1{
+             display:block !important;
+  }
+   #number2{
+              display:none !important;
+   }
   }
 @media screen and (max-width: 1000px)
 {
@@ -191,6 +214,7 @@ nav {
 
 }
 .logo-box{
+    margin-left:20px;
     display:flex;
     align-items:center;
 }
@@ -249,27 +273,7 @@ nav {
         font-size:14px;
         color:#2F3E4C;
     }
-.button-uslugi
- {
-    padding:27.75px;
-   
-    }
-.button-uslugi:hover{
-    color:#4487F4;
-}
-.button-contact2{
-    font-size:15px;
-  font-family:Metropolis-regular;
-    color:#4487F4 !important;
-    border: solid 1.5px #4487F4;
-    border-radius:28px;
-    padding:10px 20px 10px 20px;
-}
-.arrow{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-}
+
 
 .line-under-nav{
     margin-top:74.5px;
@@ -461,7 +465,7 @@ nav {
     display:flex;
     background-color:#4989F4 ;
     height:200px;
-    width:500px;
+    max-width:500px;
     margin:50px 0px 50px 0px;
     border-radius:5px;
     justify-content:space-around;
@@ -469,12 +473,13 @@ nav {
 }
 
 .range-box-img{
-    width:30%;
-    margin-left:10%;
+
+    margin-left:40px;
 }
 .range-box-text{
+   margin-left:30px;
    color:white;
-   width:80%;
+   padding-right:30px;
 }
 .range-box-text-semi{
     
@@ -488,16 +493,35 @@ nav {
     line-height: 25px;
 }
 .three-reasons{
-    color:#2F3E4C;
-    font-size:33px;
-     display:flex;
-     font-family:Metropolis-regular;
+
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
      justify-content:center;
-     margin-top:5%;
+    margin-top:50px;
+
+}
+.three-reasons-text{
+    display:flex;
+    align-items:center;
 }
 .three-reasons .blue{
+      font-size:33px;
+      height:33px;
+     font-family:Metropolis-regular;
      color:#4487F4;
-
+     background-color:white;
+}
+.three-reasons .gray{
+      font-size:33px;
+       height:33px;
+     font-family:Metropolis-regular;
+     color:#2F3E4C;
+     background-color:white;
+}
+.logo-three{
+    margin-top:8px;
+    margin-left:10px;
 }
 .three-reasons-boxies{
     display:flex;
@@ -660,6 +684,7 @@ nav {
 
 }
 .question-text{
+       line-height: 26px;
     font-family:Metropolis-medium;
     font-size:16px;
     color:#2F3E4C;
@@ -746,7 +771,7 @@ input[type=text] {
     background-color:#201C34;
     width:100%;
     margin-top:50px;
-    height:600px;
+
     display:flex;
     justify-content:center;
 }
@@ -759,28 +784,30 @@ input[type=text] {
 }
 .footer-box-info{
     display:flex;
+    flex-wrap:wrap;
     flex-direction:row;
     justify-content:space-around;
     border-bottom:2px solid #2F3E4C;
     margin-top:50px;
-    height:350px;
+
 }
 .footer-box-info-col1{
-    width:370px;
+    margin:20px 40px 20px 40px;
 
 }
 .footer-box-info-col2{
 
-     width:470px;
+      margin:20px 40px 20px 40px;
 }
 .footer-box-info-col3{
 
-     width:270px;
+    margin:20px 40px 20px 40px;
 }
 .footer-box-logoFB{
     height:200px;
     align-items:center;
     display:flex;
+    flex-wrap:wrap;
     justify-content:space-between;
 }
 .left{
