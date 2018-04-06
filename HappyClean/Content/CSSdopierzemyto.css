@@ -75,13 +75,55 @@ a:active {
   display: none;
   margin-left: auto; }
 
+.mobile-icon:hover {
+  cursor: pointer; }
+
+#mobile {
+  display: none; }
+
+.mobile-menu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  height: 100%;
+  background-color: white;
+  width: 100%;
+  z-index: 10; }
+  .mobile-menu .bold {
+    font-size: 20px;
+    font-family: Metropolis-semibold;
+    color: #2F3E4C;
+    margin-top: 40px;
+    text-decoration: none; }
+  .mobile-menu .normal {
+    text-align: center;
+    font-size: 20px;
+    font-family: Metropolis-regular;
+    color: #2F3E4C;
+    margin-top: 40px;
+    text-decoration: none; }
+  .mobile-menu .contact {
+    margin-top: 40px;
+    font-size: 20px;
+    height: 30px;
+    width: 150px;
+    font-family: Metropolis-regular;
+    color: #4487F4 !important;
+    border: solid 1.5px #4487F4;
+    border-radius: 28px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none; }
+
 .button-uslugi {
   margin-left: auto;
   font-size: 15px;
   font-family: Metropolis-regular;
   text-decoration: none;
   display: flex;
-  align-items: center; }
+  align-items: center;
+  height: 74.5px; }
   .button-uslugi:hover {
     text-decoration: none; }
 
@@ -1022,6 +1064,44 @@ input[type=text] {
   text-align: center;
   line-height: 23px;
   width: 300px; }
+
+.gallery-box {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.gallery-center {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .gallery-center img {
+    margin: 10px 10px 10px 10px; }
+
+.gallery-left {
+  display: flex;
+  align-items: center;
+  height: 90px; }
+
+.gallery-left:hover {
+  cursor: pointer; }
+
+.gallery-right {
+  display: flex;
+  align-items: center;
+  height: 90px; }
+
+.gallery-right:hover {
+  cursor: pointer; }
+
+.gallery-pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  align-items: center; }
+  .gallery-pagination svg {
+    margin: 0 15px 0 15px; }
 
 .polimeryzacja-address {
   margin-left: 5px;
