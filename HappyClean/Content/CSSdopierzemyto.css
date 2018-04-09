@@ -1103,6 +1103,49 @@ input[type=text] {
   .gallery-pagination svg {
     margin: 0 15px 0 15px; }
 
+.stage-title-distance {
+  margin-bottom: 140px !important; }
+
+.stage-border {
+  display: flex;
+  margin-left: 150px;
+  margin-top: -30px;
+  padding-bottom: 50px;
+  border-left: 1px solid #E4E8EB; }
+  .stage-border svg {
+    margin-top: -10px;
+    margin-left: -30px; }
+
+.stage-noborder {
+  display: flex;
+  margin-left: 150px;
+  margin-top: -30px;
+  padding-bottom: 30px; }
+  .stage-noborder svg {
+    margin-top: -10px;
+    margin-left: -30px; }
+
+.stage-blue {
+  margin-top: 0px;
+  font-family: Metropolis-Regular;
+  font-size: 16px;
+  color: #4487F4;
+  line-height: 27px; }
+
+.stage-text {
+  margin-left: 140px; }
+  .stage-text .bold {
+    font-family: Metropolis-Medium;
+    font-size: 22px;
+    color: #000000;
+    line-height: 27px; }
+  .stage-text .normal {
+    font-family: Metropolis-Regular;
+    font-size: 16px;
+    color: #230000;
+    line-height: 27px;
+    margin-right: 150px; }
+
 .polimeryzacja-address {
   margin-left: 5px;
   margin-top: 5px;
