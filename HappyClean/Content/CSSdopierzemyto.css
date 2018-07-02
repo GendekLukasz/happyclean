@@ -431,6 +431,16 @@ nav {
   background-size: cover;
   background-image: url(Zdjecia/PhotoDopierzemyTo/sekcja_zasiegu_dzialania.png); }
 
+.range-second {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(Zdjecia/PhotoDopierzemyTo/sekcja_zasiegu_dzialania.png); }
+
 .range-box {
   display: flex;
   background-color: #4989F4;
@@ -596,18 +606,63 @@ nav {
 
 .questions-tab {
   margin-top: 5%;
+  margin-left: 5%;
+  width: 90%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center; }
 
 .question {
-  width: 90%;
-  margin-top: 5px;
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 10px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   border: 1px solid #E4E8EB;
-  border-radius: 4px; }
+  border-radius: 4px;
+  cursor: pointer; }
+
+.top {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start; }
+
+.bot {
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 148px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column; }
+  .bot .line {
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 5px;
+    margin-bottom: 5px; }
+    .bot .line .text {
+      font-family: Metropolis-Regular;
+      font-size: 16px;
+      color: #53595F;
+      line-height: 26px; }
+      .bot .line .text .darker {
+        font-family: Metropolis-medium;
+        display: inline;
+        color: #2F3E4C; }
+    .bot .line svg {
+      min-height: 8px;
+      min-width: 8px;
+      margin-left: 10px;
+      margin-right: 10px; }
 
 .question-mark {
   margin: 10px 10px 10px 10px; }
@@ -621,7 +676,7 @@ nav {
 
 .question-arrow {
   margin-left: auto;
-  margin-right: 10px; }
+  margin-right: 40px; }
 
 .contact {
   margin-top: 5%;
@@ -640,10 +695,17 @@ nav {
   font-family: Metropolis-regular;
   font-size: 33px; }
 
+.contact-boxes {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
 .contact-boxes-row {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; }
+  flex-direction: row;
+  justify-content: space-around; }
 
 .contact-boxes-row-contact {
   margin-top: 2%;
@@ -671,8 +733,18 @@ input[type=text] {
   font-family: Metropolis-regular;
   font-size: 15px; }
 
+#name {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+#mail {
+  margin-left: 10px;
+  margin-right: 10px; }
+
 #message {
-  height: 150px; }
+  height: 150px;
+  margin-left: 10px;
+  margin-right: 10px; }
 
 .footer {
   background-color: #201C34;
@@ -979,17 +1051,22 @@ input[type=text] {
   color: #53595F; }
 
 .services-title-tab {
+  line-height: 60px;
+  text-align: center;
   font-family: Metropolis-semibold;
   font-size: 44px;
   color: #2F3E4C;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 180px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   width: 100%; }
 
 .services-title-gray {
   margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
   margin-bottom: 50px;
   font-family: Metropolis-Regular;
   font-size: 33px;
@@ -1012,6 +1089,19 @@ input[type=text] {
   color: #53595F;
   max-width: 900px;
   line-height: 28px; }
+  .description-normal .bolt {
+    font-family: Metropolis-SemiBold;
+    display: inline;
+    color: #2F3E4C; }
+
+.description-closer {
+  margin-top: 15px;
+  margin-left: 10%;
+  font-family: Metropolis-Regular;
+  font-size: 15px;
+  color: #53595F;
+  max-width: 900px;
+  line-height: 20px; }
 
 .range-box-text-services {
   font-family: Metropolis-regular;
@@ -1113,6 +1203,8 @@ input[type=text] {
   padding-bottom: 50px;
   border-left: 1px solid #E4E8EB; }
   .stage-border svg {
+    min-height: 61px;
+    min-width: 61px;
     margin-top: -10px;
     margin-left: -30px; }
 
@@ -1122,6 +1214,8 @@ input[type=text] {
   margin-top: -30px;
   padding-bottom: 30px; }
   .stage-noborder svg {
+    min-height: 61px;
+    min-width: 61px;
     margin-top: -10px;
     margin-left: -30px; }
 
@@ -1145,6 +1239,54 @@ input[type=text] {
     color: #230000;
     line-height: 27px;
     margin-right: 150px; }
+
+.kompleksowe-address {
+  margin-left: 5px;
+  margin-top: 5px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  max-width: 1150px;
+  font-family: Metropolis-medium;
+  font-size: 12px;
+  color: #DFE2E5;
+  border-bottom: 1px solid #E4E8EB; }
+
+.kompleksowe-address:after {
+  color: #2F3E4C;
+  content: "Kompleksowe utrzymanie czystości "; }
+
+.tapicerki-address {
+  margin-left: 5px;
+  margin-top: 5px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  max-width: 1150px;
+  font-family: Metropolis-medium;
+  font-size: 12px;
+  color: #DFE2E5;
+  border-bottom: 1px solid #E4E8EB; }
+
+.tapicerki-address:after {
+  color: #2F3E4C;
+  content: "Pranie dywanów/wykładzin, tapicerki meblowej i samochodowej "; }
+
+.wykladziny-address {
+  margin-left: 5px;
+  margin-top: 5px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  max-width: 1150px;
+  font-family: Metropolis-medium;
+  font-size: 12px;
+  color: #DFE2E5;
+  border-bottom: 1px solid #E4E8EB; }
+
+.wykladziny-address:after {
+  color: #2F3E4C;
+  content: "Pranie wykładzin biurowych "; }
 
 .polimeryzacja-address {
   margin-left: 5px;

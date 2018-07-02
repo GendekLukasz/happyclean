@@ -1,6 +1,67 @@
 ﻿$(document).ready(function () {
 
 
+    //questions
+
+    $("#1q").click(function()
+    {
+        if ($(this).children('.bot').is('.non-visible')) {
+            $(this).children('.bot').removeClass('non-visible');
+        }
+        else
+        {
+            $(this).children('.bot').addClass('non-visible');
+        }
+      
+    }
+    )
+
+    $("#2q").click(function () {
+        if ($(this).children('.bot').is('.non-visible')) {
+            $(this).children('.bot').removeClass('non-visible');
+        }
+        else {
+            $(this).children('.bot').addClass('non-visible');
+        }
+
+    }
+    )
+
+    $("#3q").click(function () {
+        if ($(this).children('.bot').is('.non-visible')) {
+            $(this).children('.bot').removeClass('non-visible');
+        }
+        else {
+            $(this).children('.bot').addClass('non-visible');
+        }
+
+    }
+    )
+
+    $("#4q").click(function () {
+        if ($(this).children('.bot').is('.non-visible')) {
+            $(this).children('.bot').removeClass('non-visible');
+        }
+        else {
+            $(this).children('.bot').addClass('non-visible');
+        }
+
+    }
+)
+
+    $("#5q").click(function () {
+        if ($(this).children('.bot').is('.non-visible')) {
+            $(this).children('.bot').removeClass('non-visible');
+        }
+        else {
+            $(this).children('.bot').addClass('non-visible');
+        }
+
+    }
+)
+
+
+
     var mobileIconClicked = false;
     $(".mobile-icon").click(function () {
 

@@ -205,6 +205,9 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\wykladziny.cshtml" />
+    <Content Include="Views\Home\kompleksowe.cshtml" />
+    <Content Include="Views\Home\tapicerki.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

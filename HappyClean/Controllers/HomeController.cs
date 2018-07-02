@@ -24,5 +24,17 @@ namespace HappyClean.Controllers
         {
             return View();
         }
+        public ActionResult wykladziny()
+        {
+            return View();
+        }
+        public ActionResult kompleksowe()
+        {
+            return View();
+        }
+        public ActionResult tapicerki()
+        {
+            return View();
+        }
     }
 }
