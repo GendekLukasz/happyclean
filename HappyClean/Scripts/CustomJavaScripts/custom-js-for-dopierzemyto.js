@@ -1,16 +1,99 @@
 ﻿$(document).ready(function () {
 
 
+    //mobile-price
+
+
+    $("#1c").click(function () {
+        if ($(this).children('.bot-mobile').is('.non-visible')) {
+            $(this).children('.bot-mobile').removeClass('non-visible');
+
+            $(this).find(".open").removeClass('non-visible');
+            $(this).find(".closed").addClass('non-visible');
+        }
+        else {
+            $(this).children('.bot-mobile').addClass('non-visible');
+            $(this).find(".open").addClass('non-visible');
+            $(this).find(".closed").removeClass('non-visible');
+        }
+
+    }
+    )
+
+    $("#2c").click(function () {
+        if ($(this).children('.bot-mobile').is('.non-visible')) {
+            $(this).children('.bot-mobile').removeClass('non-visible');
+            $(this).find(".open").removeClass('non-visible');
+            $(this).find(".closed").addClass('non-visible');
+        }
+        else {
+            $(this).children('.bot-mobile').addClass('non-visible');
+            $(this).find(".open").addClass('non-visible');
+            $(this).find(".closed").removeClass('non-visible');
+        }
+
+    }
+    )
+
+    $("#3c").click(function () {
+        if ($(this).children('.bot-mobile').is('.non-visible')) {
+            $(this).children('.bot-mobile').removeClass('non-visible');
+            $(this).find(".open").removeClass('non-visible');
+            $(this).find(".closed").addClass('non-visible');
+        }
+        else {
+            $(this).children('.bot-mobile').addClass('non-visible');
+            $(this).find(".open").addClass('non-visible');
+            $(this).find(".closed").removeClass('non-visible');
+        }
+
+    }
+    )
+
+    $("#4c").click(function () {
+        if ($(this).children('.bot-mobile').is('.non-visible')) {
+            $(this).children('.bot-mobile').removeClass('non-visible');
+            $(this).find(".open").removeClass('non-visible');
+            $(this).find(".closed").addClass('non-visible');
+        }
+        else {
+            $(this).children('.bot-mobile').addClass('non-visible');
+            $(this).find(".open").addClass('non-visible');
+            $(this).find(".closed").removeClass('non-visible');
+        }
+
+    }
+)
+
+    $("#5c").click(function () {
+        if ($(this).children('.bot-mobile').is('.non-visible')) {
+            $(this).children('.bot-mobile').removeClass('non-visible');
+            $(this).find(".open").removeClass('non-visible');
+            $(this).find(".closed").addClass('non-visible');
+        }
+        else {
+            $(this).children('.bot-mobile').addClass('non-visible');
+            $(this).find(".open").addClass('non-visible');
+            $(this).find(".closed").removeClass('non-visible');
+        }
+
+    }
+)
     //questions
 
     $("#1q").click(function()
     {
         if ($(this).children('.bot').is('.non-visible')) {
             $(this).children('.bot').removeClass('non-visible');
+     
+            $(this).find(".open").removeClass('non-visible');
+            $(this).find(".closed").addClass('non-visible');
         }
         else
         {
             $(this).children('.bot').addClass('non-visible');
+            $(this).find(".open").addClass('non-visible');
+            $(this).find(".closed").removeClass('non-visible');
         }
       
     }
@@ -19,9 +102,13 @@
     $("#2q").click(function () {
         if ($(this).children('.bot').is('.non-visible')) {
             $(this).children('.bot').removeClass('non-visible');
+            $(this).find(".open").removeClass('non-visible');
+            $(this).find(".closed").addClass('non-visible');
         }
         else {
             $(this).children('.bot').addClass('non-visible');
+            $(this).find(".open").addClass('non-visible');
+            $(this).find(".closed").removeClass('non-visible');
         }
 
     }
@@ -30,9 +117,13 @@
     $("#3q").click(function () {
         if ($(this).children('.bot').is('.non-visible')) {
             $(this).children('.bot').removeClass('non-visible');
+            $(this).find(".open").removeClass('non-visible');
+            $(this).find(".closed").addClass('non-visible');
         }
         else {
             $(this).children('.bot').addClass('non-visible');
+            $(this).find(".open").addClass('non-visible');
+            $(this).find(".closed").removeClass('non-visible');
         }
 
     }
@@ -41,9 +132,13 @@
     $("#4q").click(function () {
         if ($(this).children('.bot').is('.non-visible')) {
             $(this).children('.bot').removeClass('non-visible');
+            $(this).find(".open").removeClass('non-visible');
+            $(this).find(".closed").addClass('non-visible');
         }
         else {
             $(this).children('.bot').addClass('non-visible');
+            $(this).find(".open").addClass('non-visible');
+            $(this).find(".closed").removeClass('non-visible');
         }
 
     }
@@ -52,9 +147,13 @@
     $("#5q").click(function () {
         if ($(this).children('.bot').is('.non-visible')) {
             $(this).children('.bot').removeClass('non-visible');
+            $(this).find(".open").removeClass('non-visible');
+            $(this).find(".closed").addClass('non-visible');
         }
         else {
             $(this).children('.bot').addClass('non-visible');
+            $(this).find(".open").addClass('non-visible');
+            $(this).find(".closed").removeClass('non-visible');
         }
 
     }

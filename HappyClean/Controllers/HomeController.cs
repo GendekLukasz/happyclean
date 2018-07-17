@@ -18,7 +18,20 @@ namespace HappyClean.Controllers
         }
         public ActionResult cennik()
         {
-            return View();
+            string userAgent = Request.UserAgent;
+            if (userAgent.Contains("BlackBerry")
+              || (userAgent.Contains("iPhone") || (userAgent.Contains("Android"))))
+            {
+                return View("cennikmobile");
+
+            }
+            else
+            {
+                return View("cennikmobile");
+                //return View("cennik");
+            }
+
+
         }
         public ActionResult polimeryzacja()
         {

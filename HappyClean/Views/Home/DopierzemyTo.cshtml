@@ -400,9 +400,9 @@
             <div class="service-description">
                 Pranie dywanów, tapicerki meblowej i samochodowej
             </div>
-            <div class="service-more">
+            <a href="~/Home/tapicerki" class="service-more">
                 Dowiedz się więcej
-            </div>
+            </a>
         </div>
         <div class="service">
             <svg width="152px" height="162px" viewBox="0 0 152 162" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -440,9 +440,9 @@
             <div class="service-description">
                 Pranie wykładzin biurowych
             </div>
-            <div class="service-more">
+            <a href="~/Home/wykladziny" class="service-more">
                 Dowiedz się więcej
-            </div>
+            </a>
         </div>
         <div class="service">
             <svg width="167px" height="177px" viewBox="0 0 167 177" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -490,9 +490,9 @@
             <div class="service-description">
                 Polimeryzacja podłóg typu: PCV i linoleum
             </div>
-            <div class="service-more">
+            <a href="~/Home/polimeryzacja" class="service-more">
                 Dowiedz się więcej
-            </div>
+            </a>
         </div>
         <div class="service">
             <svg width="142px" height="159px" viewBox="0 0 142 159" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -571,9 +571,9 @@
             <div class="service-description">
                 Doczyszczanie podłóg twardych – gres, płytki
             </div>
-            <div class="service-more">
+            <a href="~/Home/kompleksowe" class="service-more">
                 Dowiedz się więcej
-            </div>
+            </a>
         </div>
     </div>
     <div class="range">
@@ -617,8 +617,8 @@
     </div>
     <div class="three-reasons">
 
-        <p class="blue">3 powody</p>
-        <p class="gray">, aby wybrać</p>
+        <div class="blue-reasons">3 powody</div>
+        <div class="gray">, aby wybrać</div>
 
         <div class="logo-three">
             <svg width="185px" height="38px" viewBox="0 0 185 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -817,7 +817,7 @@
         <div id="1q" class="question">
             <div class="top">
                 <div class="question-mark">
-                    <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <svg class="open non-visible" width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
                         <title>assets/ico/question</title>
                         <desc>Created with Sketch.</desc>
@@ -832,10 +832,25 @@
                             </g>
                         </g>
                     </svg>
+                    <svg class="closed" width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+                        <title>assets/ico/question</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="symbols/FAq/1" transform="translate(-20.000000, -26.000000)" fill="#ABB0B3">
+                                <g id="assets/ico/question">
+                                    <g transform="translate(20.000000, 26.000000)">
+                                        <path d="M13.9915054,0.0170459459 C21.7280189,0.0170459459 27.9829919,6.27201892 27.9829919,14.0085324 C27.9829919,21.7449514 21.7280189,27.9999243 13.9915054,27.9999243 C6.25499189,27.9999243 1.89189167e-05,21.7449514 1.89189167e-05,14.0085324 C1.89189167e-05,6.27201892 6.25499189,0.0170459459 13.9915054,0.0170459459 Z M13.9915054,26.3539784 C20.7403568,26.3539784 26.3369514,20.7573838 26.3369514,14.0085324 C26.3369514,7.25968108 20.7403568,1.66308649 13.9915054,1.66308649 C7.24265405,1.66308649 1.64605946,7.25968108 1.64605946,14.0085324 C1.64605946,20.7573838 7.24265405,26.3539784 13.9915054,26.3539784 Z M15.1249082,6.71578737 C16.484616,7.04092249 17.6742748,8.01642126 18.014275,9.4796227 C18.3541775,10.7802566 17.8443238,12.0808905 16.6545672,13.0563892 C15.8047133,13.7066595 15.1249082,14.6821582 15.1249082,15.657657 C15.2949571,16.1454531 14.9549569,16.4705882 14.4451032,16.4705882 C13.9351517,16.4705882 13.5952492,16.1453597 13.5952492,15.657657 C13.5952492,14.1943621 14.2751519,12.7312541 15.6348597,11.7557554 C16.3146647,11.2679593 16.484616,10.617689 16.3146647,9.80475782 C16.1447135,9.15448759 15.6348597,8.50412393 14.7850057,8.34155638 C14.1052006,8.17898882 13.5952492,8.34155638 13.0853954,8.66669149 C12.5755416,8.9918266 12.4055903,9.64219026 12.4055903,10.1298929 C12.4055903,10.617689 12.0655901,10.9428241 11.5557363,10.9428241 C11.0457849,10.9428241 10.7058824,10.6175956 10.7058824,10.1298929 C10.7058824,8.9918266 11.2157361,8.01632783 12.0655901,7.3660576 C12.9154441,6.71578737 14.105103,6.39065226 15.1249082,6.71578737 Z M13.3411765,20 C13.6705882,19.6862745 14.1647059,19.6862745 14.4941176,20 C14.6588235,20.1568627 14.8235294,20.3137255 14.8235294,20.627451 C14.8235294,20.7843137 14.6588235,21.0980392 14.4941176,21.0980392 C14.4941176,21.254902 14.1647059,21.4117647 14,21.4117647 C13.8352941,21.4117647 13.5058824,21.254902 13.3411765,21.0980392 C13.1764706,20.9411765 13.1764706,20.7843137 13.1764706,20.627451 C13.1764706,20.4705882 13.1764706,20.1568627 13.3411765,20 Z" id="Combined-Shape"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
                 </div>
                 <div class="question-text">Jaki jest czas prania?</div>
                 <div class="question-arrow">
-                    <svg width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <svg class="closed" width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
                         <title>assets/ico/arrow/rozwiń</title>
                         <desc>Created with Sketch.</desc>
@@ -846,6 +861,25 @@
                                     <g transform="translate(1124.000000, 35.000000)">
                                         <g id="Page-1">
                                             <path d="M8.80825,9.30859 C8.68025,9.30859 8.55225,9.25959 8.45425,9.16259 L0.14625,0.85359 C-0.04875,0.65859 -0.04875,0.34159 0.14625,0.14659 C0.34125,-0.04841 0.65825,-0.04841 0.85325,0.14659 L8.80825,8.10159 L16.76325,0.14659 C16.95825,-0.04841 17.27525,-0.04841 17.47025,0.14659 C17.66525,0.34159 17.66525,0.65859 17.47025,0.85359 L9.16225,9.16259 C9.06425,9.25959 8.93625,9.30859 8.80825,9.30859"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <svg class="open non-visible" width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+                        <title>ZWIŃ</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="RWD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="happyclean_rwd_cennik_v1" transform="translate(-275.000000, -1991.000000)" fill="#4487F4">
+                                <g id="rwd/table/row_v1" transform="translate(14.000000, 1961.000000)">
+                                    <g id="ARROW" transform="translate(261.000000, 30.000000)">
+                                        <g id="ZWIŃ" transform="translate(9.000000, 5.000000) scale(1, -1) translate(-9.000000, -5.000000) ">
+                                            <g id="assets/ico/arrow/rozwiń">
+                                                <path d="M8.80825,9.30859 C8.68025,9.30859 8.55225,9.25959 8.45425,9.16259 L0.14625,0.85359 C-0.04875,0.65859 -0.04875,0.34159 0.14625,0.14659 C0.34125,-0.04841 0.65825,-0.04841 0.85325,0.14659 L8.80825,8.10159 L16.76325,0.14659 C16.95825,-0.04841 17.27525,-0.04841 17.47025,0.14659 C17.66525,0.34159 17.66525,0.65859 17.47025,0.85359 L9.16225,9.16259 C9.06425,9.25959 8.93625,9.30859 8.80825,9.30859" id="Page-1"></path>
+                                            </g>
                                         </g>
                                     </g>
                                 </g>
@@ -971,7 +1005,7 @@
         <div id="2q" class="question">
             <div class="top">
                 <div class="question-mark">
-                    <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <svg class="open non-visible" width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
                         <title>assets/ico/question</title>
                         <desc>Created with Sketch.</desc>
@@ -986,10 +1020,27 @@
                             </g>
                         </g>
                     </svg>
+                    <svg class="closed" width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+                        <title>assets/ico/question</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="symbols/FAq/1" transform="translate(-20.000000, -26.000000)" fill="#ABB0B3">
+                                <g id="assets/ico/question">
+                                    <g transform="translate(20.000000, 26.000000)">
+                                        <path d="M13.9915054,0.0170459459 C21.7280189,0.0170459459 27.9829919,6.27201892 27.9829919,14.0085324 C27.9829919,21.7449514 21.7280189,27.9999243 13.9915054,27.9999243 C6.25499189,27.9999243 1.89189167e-05,21.7449514 1.89189167e-05,14.0085324 C1.89189167e-05,6.27201892 6.25499189,0.0170459459 13.9915054,0.0170459459 Z M13.9915054,26.3539784 C20.7403568,26.3539784 26.3369514,20.7573838 26.3369514,14.0085324 C26.3369514,7.25968108 20.7403568,1.66308649 13.9915054,1.66308649 C7.24265405,1.66308649 1.64605946,7.25968108 1.64605946,14.0085324 C1.64605946,20.7573838 7.24265405,26.3539784 13.9915054,26.3539784 Z M15.1249082,6.71578737 C16.484616,7.04092249 17.6742748,8.01642126 18.014275,9.4796227 C18.3541775,10.7802566 17.8443238,12.0808905 16.6545672,13.0563892 C15.8047133,13.7066595 15.1249082,14.6821582 15.1249082,15.657657 C15.2949571,16.1454531 14.9549569,16.4705882 14.4451032,16.4705882 C13.9351517,16.4705882 13.5952492,16.1453597 13.5952492,15.657657 C13.5952492,14.1943621 14.2751519,12.7312541 15.6348597,11.7557554 C16.3146647,11.2679593 16.484616,10.617689 16.3146647,9.80475782 C16.1447135,9.15448759 15.6348597,8.50412393 14.7850057,8.34155638 C14.1052006,8.17898882 13.5952492,8.34155638 13.0853954,8.66669149 C12.5755416,8.9918266 12.4055903,9.64219026 12.4055903,10.1298929 C12.4055903,10.617689 12.0655901,10.9428241 11.5557363,10.9428241 C11.0457849,10.9428241 10.7058824,10.6175956 10.7058824,10.1298929 C10.7058824,8.9918266 11.2157361,8.01632783 12.0655901,7.3660576 C12.9154441,6.71578737 14.105103,6.39065226 15.1249082,6.71578737 Z M13.3411765,20 C13.6705882,19.6862745 14.1647059,19.6862745 14.4941176,20 C14.6588235,20.1568627 14.8235294,20.3137255 14.8235294,20.627451 C14.8235294,20.7843137 14.6588235,21.0980392 14.4941176,21.0980392 C14.4941176,21.254902 14.1647059,21.4117647 14,21.4117647 C13.8352941,21.4117647 13.5058824,21.254902 13.3411765,21.0980392 C13.1764706,20.9411765 13.1764706,20.7843137 13.1764706,20.627451 C13.1764706,20.4705882 13.1764706,20.1568627 13.3411765,20 Z" id="Combined-Shape"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
                 </div>
+                
+ 
                 <div class="question-text">Jaki jest czas schnięcia?</div>
                 <div class="question-arrow">
-                    <svg width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <svg class="closed" width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
                         <title>assets/ico/arrow/rozwiń</title>
                         <desc>Created with Sketch.</desc>
@@ -1000,6 +1051,25 @@
                                     <g transform="translate(1124.000000, 35.000000)">
                                         <g id="Page-1">
                                             <path d="M8.80825,9.30859 C8.68025,9.30859 8.55225,9.25959 8.45425,9.16259 L0.14625,0.85359 C-0.04875,0.65859 -0.04875,0.34159 0.14625,0.14659 C0.34125,-0.04841 0.65825,-0.04841 0.85325,0.14659 L8.80825,8.10159 L16.76325,0.14659 C16.95825,-0.04841 17.27525,-0.04841 17.47025,0.14659 C17.66525,0.34159 17.66525,0.65859 17.47025,0.85359 L9.16225,9.16259 C9.06425,9.25959 8.93625,9.30859 8.80825,9.30859"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <svg class="open non-visible" width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+                        <title>ZWIŃ</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="RWD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="happyclean_rwd_cennik_v1" transform="translate(-275.000000, -1991.000000)" fill="#4487F4">
+                                <g id="rwd/table/row_v1" transform="translate(14.000000, 1961.000000)">
+                                    <g id="ARROW" transform="translate(261.000000, 30.000000)">
+                                        <g id="ZWIŃ" transform="translate(9.000000, 5.000000) scale(1, -1) translate(-9.000000, -5.000000) ">
+                                            <g id="assets/ico/arrow/rozwiń">
+                                                <path d="M8.80825,9.30859 C8.68025,9.30859 8.55225,9.25959 8.45425,9.16259 L0.14625,0.85359 C-0.04875,0.65859 -0.04875,0.34159 0.14625,0.14659 C0.34125,-0.04841 0.65825,-0.04841 0.85325,0.14659 L8.80825,8.10159 L16.76325,0.14659 C16.95825,-0.04841 17.27525,-0.04841 17.47025,0.14659 C17.66525,0.34159 17.66525,0.65859 17.47025,0.85359 L9.16225,9.16259 C9.06425,9.25959 8.93625,9.30859 8.80825,9.30859" id="Page-1"></path>
+                                            </g>
                                         </g>
                                     </g>
                                 </g>
@@ -1086,7 +1156,7 @@
         <div id="3q" class="question">
             <div class="top">
                 <div class="question-mark">
-                    <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <svg class="open non-visible" width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
                         <title>assets/ico/question</title>
                         <desc>Created with Sketch.</desc>
@@ -1101,10 +1171,25 @@
                             </g>
                         </g>
                     </svg>
+                    <svg class="closed" width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+                        <title>assets/ico/question</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="symbols/FAq/1" transform="translate(-20.000000, -26.000000)" fill="#ABB0B3">
+                                <g id="assets/ico/question">
+                                    <g transform="translate(20.000000, 26.000000)">
+                                        <path d="M13.9915054,0.0170459459 C21.7280189,0.0170459459 27.9829919,6.27201892 27.9829919,14.0085324 C27.9829919,21.7449514 21.7280189,27.9999243 13.9915054,27.9999243 C6.25499189,27.9999243 1.89189167e-05,21.7449514 1.89189167e-05,14.0085324 C1.89189167e-05,6.27201892 6.25499189,0.0170459459 13.9915054,0.0170459459 Z M13.9915054,26.3539784 C20.7403568,26.3539784 26.3369514,20.7573838 26.3369514,14.0085324 C26.3369514,7.25968108 20.7403568,1.66308649 13.9915054,1.66308649 C7.24265405,1.66308649 1.64605946,7.25968108 1.64605946,14.0085324 C1.64605946,20.7573838 7.24265405,26.3539784 13.9915054,26.3539784 Z M15.1249082,6.71578737 C16.484616,7.04092249 17.6742748,8.01642126 18.014275,9.4796227 C18.3541775,10.7802566 17.8443238,12.0808905 16.6545672,13.0563892 C15.8047133,13.7066595 15.1249082,14.6821582 15.1249082,15.657657 C15.2949571,16.1454531 14.9549569,16.4705882 14.4451032,16.4705882 C13.9351517,16.4705882 13.5952492,16.1453597 13.5952492,15.657657 C13.5952492,14.1943621 14.2751519,12.7312541 15.6348597,11.7557554 C16.3146647,11.2679593 16.484616,10.617689 16.3146647,9.80475782 C16.1447135,9.15448759 15.6348597,8.50412393 14.7850057,8.34155638 C14.1052006,8.17898882 13.5952492,8.34155638 13.0853954,8.66669149 C12.5755416,8.9918266 12.4055903,9.64219026 12.4055903,10.1298929 C12.4055903,10.617689 12.0655901,10.9428241 11.5557363,10.9428241 C11.0457849,10.9428241 10.7058824,10.6175956 10.7058824,10.1298929 C10.7058824,8.9918266 11.2157361,8.01632783 12.0655901,7.3660576 C12.9154441,6.71578737 14.105103,6.39065226 15.1249082,6.71578737 Z M13.3411765,20 C13.6705882,19.6862745 14.1647059,19.6862745 14.4941176,20 C14.6588235,20.1568627 14.8235294,20.3137255 14.8235294,20.627451 C14.8235294,20.7843137 14.6588235,21.0980392 14.4941176,21.0980392 C14.4941176,21.254902 14.1647059,21.4117647 14,21.4117647 C13.8352941,21.4117647 13.5058824,21.254902 13.3411765,21.0980392 C13.1764706,20.9411765 13.1764706,20.7843137 13.1764706,20.627451 C13.1764706,20.4705882 13.1764706,20.1568627 13.3411765,20 Z" id="Combined-Shape"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
                 </div>
                 <div class="question-text">Czy jest możliwość prania dywanów u Was w pralni?</div>
                 <div class="question-arrow">
-                    <svg width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <svg class="closed" width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
                         <title>assets/ico/arrow/rozwiń</title>
                         <desc>Created with Sketch.</desc>
@@ -1115,6 +1200,25 @@
                                     <g transform="translate(1124.000000, 35.000000)">
                                         <g id="Page-1">
                                             <path d="M8.80825,9.30859 C8.68025,9.30859 8.55225,9.25959 8.45425,9.16259 L0.14625,0.85359 C-0.04875,0.65859 -0.04875,0.34159 0.14625,0.14659 C0.34125,-0.04841 0.65825,-0.04841 0.85325,0.14659 L8.80825,8.10159 L16.76325,0.14659 C16.95825,-0.04841 17.27525,-0.04841 17.47025,0.14659 C17.66525,0.34159 17.66525,0.65859 17.47025,0.85359 L9.16225,9.16259 C9.06425,9.25959 8.93625,9.30859 8.80825,9.30859"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <svg class="open non-visible" width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+                        <title>ZWIŃ</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="RWD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="happyclean_rwd_cennik_v1" transform="translate(-275.000000, -1991.000000)" fill="#4487F4">
+                                <g id="rwd/table/row_v1" transform="translate(14.000000, 1961.000000)">
+                                    <g id="ARROW" transform="translate(261.000000, 30.000000)">
+                                        <g id="ZWIŃ" transform="translate(9.000000, 5.000000) scale(1, -1) translate(-9.000000, -5.000000) ">
+                                            <g id="assets/ico/arrow/rozwiń">
+                                                <path d="M8.80825,9.30859 C8.68025,9.30859 8.55225,9.25959 8.45425,9.16259 L0.14625,0.85359 C-0.04875,0.65859 -0.04875,0.34159 0.14625,0.14659 C0.34125,-0.04841 0.65825,-0.04841 0.85325,0.14659 L8.80825,8.10159 L16.76325,0.14659 C16.95825,-0.04841 17.27525,-0.04841 17.47025,0.14659 C17.66525,0.34159 17.66525,0.65859 17.47025,0.85359 L9.16225,9.16259 C9.06425,9.25959 8.93625,9.30859 8.80825,9.30859" id="Page-1"></path>
+                                            </g>
                                         </g>
                                     </g>
                                 </g>
@@ -1135,7 +1239,7 @@
         <div id="4q" class="question">
             <div class="top">
                 <div class="question-mark">
-                    <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <svg class="open non-visible" width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
                         <title>assets/ico/question</title>
                         <desc>Created with Sketch.</desc>
@@ -1150,10 +1254,25 @@
                             </g>
                         </g>
                     </svg>
+                    <svg class="closed" width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+                        <title>assets/ico/question</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="symbols/FAq/1" transform="translate(-20.000000, -26.000000)" fill="#ABB0B3">
+                                <g id="assets/ico/question">
+                                    <g transform="translate(20.000000, 26.000000)">
+                                        <path d="M13.9915054,0.0170459459 C21.7280189,0.0170459459 27.9829919,6.27201892 27.9829919,14.0085324 C27.9829919,21.7449514 21.7280189,27.9999243 13.9915054,27.9999243 C6.25499189,27.9999243 1.89189167e-05,21.7449514 1.89189167e-05,14.0085324 C1.89189167e-05,6.27201892 6.25499189,0.0170459459 13.9915054,0.0170459459 Z M13.9915054,26.3539784 C20.7403568,26.3539784 26.3369514,20.7573838 26.3369514,14.0085324 C26.3369514,7.25968108 20.7403568,1.66308649 13.9915054,1.66308649 C7.24265405,1.66308649 1.64605946,7.25968108 1.64605946,14.0085324 C1.64605946,20.7573838 7.24265405,26.3539784 13.9915054,26.3539784 Z M15.1249082,6.71578737 C16.484616,7.04092249 17.6742748,8.01642126 18.014275,9.4796227 C18.3541775,10.7802566 17.8443238,12.0808905 16.6545672,13.0563892 C15.8047133,13.7066595 15.1249082,14.6821582 15.1249082,15.657657 C15.2949571,16.1454531 14.9549569,16.4705882 14.4451032,16.4705882 C13.9351517,16.4705882 13.5952492,16.1453597 13.5952492,15.657657 C13.5952492,14.1943621 14.2751519,12.7312541 15.6348597,11.7557554 C16.3146647,11.2679593 16.484616,10.617689 16.3146647,9.80475782 C16.1447135,9.15448759 15.6348597,8.50412393 14.7850057,8.34155638 C14.1052006,8.17898882 13.5952492,8.34155638 13.0853954,8.66669149 C12.5755416,8.9918266 12.4055903,9.64219026 12.4055903,10.1298929 C12.4055903,10.617689 12.0655901,10.9428241 11.5557363,10.9428241 C11.0457849,10.9428241 10.7058824,10.6175956 10.7058824,10.1298929 C10.7058824,8.9918266 11.2157361,8.01632783 12.0655901,7.3660576 C12.9154441,6.71578737 14.105103,6.39065226 15.1249082,6.71578737 Z M13.3411765,20 C13.6705882,19.6862745 14.1647059,19.6862745 14.4941176,20 C14.6588235,20.1568627 14.8235294,20.3137255 14.8235294,20.627451 C14.8235294,20.7843137 14.6588235,21.0980392 14.4941176,21.0980392 C14.4941176,21.254902 14.1647059,21.4117647 14,21.4117647 C13.8352941,21.4117647 13.5058824,21.254902 13.3411765,21.0980392 C13.1764706,20.9411765 13.1764706,20.7843137 13.1764706,20.627451 C13.1764706,20.4705882 13.1764706,20.1568627 13.3411765,20 Z" id="Combined-Shape"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
                 </div>
                 <div class="question-text">Czy podłoga i ściany są zabezpieczane podczas prania?</div>
                 <div class="question-arrow">
-                    <svg width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <svg class="closed" width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
                         <title>assets/ico/arrow/rozwiń</title>
                         <desc>Created with Sketch.</desc>
@@ -1164,6 +1283,25 @@
                                     <g transform="translate(1124.000000, 35.000000)">
                                         <g id="Page-1">
                                             <path d="M8.80825,9.30859 C8.68025,9.30859 8.55225,9.25959 8.45425,9.16259 L0.14625,0.85359 C-0.04875,0.65859 -0.04875,0.34159 0.14625,0.14659 C0.34125,-0.04841 0.65825,-0.04841 0.85325,0.14659 L8.80825,8.10159 L16.76325,0.14659 C16.95825,-0.04841 17.27525,-0.04841 17.47025,0.14659 C17.66525,0.34159 17.66525,0.65859 17.47025,0.85359 L9.16225,9.16259 C9.06425,9.25959 8.93625,9.30859 8.80825,9.30859"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <svg class="open non-visible" width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+                        <title>ZWIŃ</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="RWD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="happyclean_rwd_cennik_v1" transform="translate(-275.000000, -1991.000000)" fill="#4487F4">
+                                <g id="rwd/table/row_v1" transform="translate(14.000000, 1961.000000)">
+                                    <g id="ARROW" transform="translate(261.000000, 30.000000)">
+                                        <g id="ZWIŃ" transform="translate(9.000000, 5.000000) scale(1, -1) translate(-9.000000, -5.000000) ">
+                                            <g id="assets/ico/arrow/rozwiń">
+                                                <path d="M8.80825,9.30859 C8.68025,9.30859 8.55225,9.25959 8.45425,9.16259 L0.14625,0.85359 C-0.04875,0.65859 -0.04875,0.34159 0.14625,0.14659 C0.34125,-0.04841 0.65825,-0.04841 0.85325,0.14659 L8.80825,8.10159 L16.76325,0.14659 C16.95825,-0.04841 17.27525,-0.04841 17.47025,0.14659 C17.66525,0.34159 17.66525,0.65859 17.47025,0.85359 L9.16225,9.16259 C9.06425,9.25959 8.93625,9.30859 8.80825,9.30859" id="Page-1"></path>
+                                            </g>
                                         </g>
                                     </g>
                                 </g>
@@ -1181,7 +1319,7 @@
         <div id="5q" class="question">
             <div class="top">
                 <div class="question-mark">
-                    <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <svg class="open non-visible" width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
                         <title>assets/ico/question</title>
                         <desc>Created with Sketch.</desc>
@@ -1196,10 +1334,25 @@
                             </g>
                         </g>
                     </svg>
+                    <svg class="closed" width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+                        <title>assets/ico/question</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="symbols/FAq/1" transform="translate(-20.000000, -26.000000)" fill="#ABB0B3">
+                                <g id="assets/ico/question">
+                                    <g transform="translate(20.000000, 26.000000)">
+                                        <path d="M13.9915054,0.0170459459 C21.7280189,0.0170459459 27.9829919,6.27201892 27.9829919,14.0085324 C27.9829919,21.7449514 21.7280189,27.9999243 13.9915054,27.9999243 C6.25499189,27.9999243 1.89189167e-05,21.7449514 1.89189167e-05,14.0085324 C1.89189167e-05,6.27201892 6.25499189,0.0170459459 13.9915054,0.0170459459 Z M13.9915054,26.3539784 C20.7403568,26.3539784 26.3369514,20.7573838 26.3369514,14.0085324 C26.3369514,7.25968108 20.7403568,1.66308649 13.9915054,1.66308649 C7.24265405,1.66308649 1.64605946,7.25968108 1.64605946,14.0085324 C1.64605946,20.7573838 7.24265405,26.3539784 13.9915054,26.3539784 Z M15.1249082,6.71578737 C16.484616,7.04092249 17.6742748,8.01642126 18.014275,9.4796227 C18.3541775,10.7802566 17.8443238,12.0808905 16.6545672,13.0563892 C15.8047133,13.7066595 15.1249082,14.6821582 15.1249082,15.657657 C15.2949571,16.1454531 14.9549569,16.4705882 14.4451032,16.4705882 C13.9351517,16.4705882 13.5952492,16.1453597 13.5952492,15.657657 C13.5952492,14.1943621 14.2751519,12.7312541 15.6348597,11.7557554 C16.3146647,11.2679593 16.484616,10.617689 16.3146647,9.80475782 C16.1447135,9.15448759 15.6348597,8.50412393 14.7850057,8.34155638 C14.1052006,8.17898882 13.5952492,8.34155638 13.0853954,8.66669149 C12.5755416,8.9918266 12.4055903,9.64219026 12.4055903,10.1298929 C12.4055903,10.617689 12.0655901,10.9428241 11.5557363,10.9428241 C11.0457849,10.9428241 10.7058824,10.6175956 10.7058824,10.1298929 C10.7058824,8.9918266 11.2157361,8.01632783 12.0655901,7.3660576 C12.9154441,6.71578737 14.105103,6.39065226 15.1249082,6.71578737 Z M13.3411765,20 C13.6705882,19.6862745 14.1647059,19.6862745 14.4941176,20 C14.6588235,20.1568627 14.8235294,20.3137255 14.8235294,20.627451 C14.8235294,20.7843137 14.6588235,21.0980392 14.4941176,21.0980392 C14.4941176,21.254902 14.1647059,21.4117647 14,21.4117647 C13.8352941,21.4117647 13.5058824,21.254902 13.3411765,21.0980392 C13.1764706,20.9411765 13.1764706,20.7843137 13.1764706,20.627451 C13.1764706,20.4705882 13.1764706,20.1568627 13.3411765,20 Z" id="Combined-Shape"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
                 </div>
                 <div class="question-text">Jakie macie terminy?</div>
                 <div class="question-arrow">
-                    <svg width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <svg class="closed" width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
                         <title>assets/ico/arrow/rozwiń</title>
                         <desc>Created with Sketch.</desc>
@@ -1210,6 +1363,25 @@
                                     <g transform="translate(1124.000000, 35.000000)">
                                         <g id="Page-1">
                                             <path d="M8.80825,9.30859 C8.68025,9.30859 8.55225,9.25959 8.45425,9.16259 L0.14625,0.85359 C-0.04875,0.65859 -0.04875,0.34159 0.14625,0.14659 C0.34125,-0.04841 0.65825,-0.04841 0.85325,0.14659 L8.80825,8.10159 L16.76325,0.14659 C16.95825,-0.04841 17.27525,-0.04841 17.47025,0.14659 C17.66525,0.34159 17.66525,0.65859 17.47025,0.85359 L9.16225,9.16259 C9.06425,9.25959 8.93625,9.30859 8.80825,9.30859"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                    <svg class="open non-visible" width="18px" height="10px" viewBox="0 0 18 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+                        <title>ZWIŃ</title>
+                        <desc>Created with Sketch.</desc>
+                        <defs></defs>
+                        <g id="RWD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="happyclean_rwd_cennik_v1" transform="translate(-275.000000, -1991.000000)" fill="#4487F4">
+                                <g id="rwd/table/row_v1" transform="translate(14.000000, 1961.000000)">
+                                    <g id="ARROW" transform="translate(261.000000, 30.000000)">
+                                        <g id="ZWIŃ" transform="translate(9.000000, 5.000000) scale(1, -1) translate(-9.000000, -5.000000) ">
+                                            <g id="assets/ico/arrow/rozwiń">
+                                                <path d="M8.80825,9.30859 C8.68025,9.30859 8.55225,9.25959 8.45425,9.16259 L0.14625,0.85359 C-0.04875,0.65859 -0.04875,0.34159 0.14625,0.14659 C0.34125,-0.04841 0.65825,-0.04841 0.85325,0.14659 L8.80825,8.10159 L16.76325,0.14659 C16.95825,-0.04841 17.27525,-0.04841 17.47025,0.14659 C17.66525,0.34159 17.66525,0.65859 17.47025,0.85359 L9.16225,9.16259 C9.06425,9.25959 8.93625,9.30859 8.80825,9.30859" id="Page-1"></path>
+                                            </g>
                                         </g>
                                     </g>
                                 </g>
@@ -1294,7 +1466,7 @@
             </div>
         </div>
     </div>
-    </div>
+
 
 
 
@@ -1319,7 +1491,7 @@
         </div>
     </div>
 
-
+</div>
 
 
 

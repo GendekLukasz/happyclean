@@ -208,6 +208,7 @@
     <Content Include="Views\Home\wykladziny.cshtml" />
     <Content Include="Views\Home\kompleksowe.cshtml" />
     <Content Include="Views\Home\tapicerki.cshtml" />
+    <Content Include="Views\Home\cennikmobile.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
