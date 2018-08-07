@@ -3,7 +3,7 @@
 
     //mobile-price
 
-
+ 
     $("#1c").click(function () {
         if ($(this).children('.bot-mobile').is('.non-visible')) {
             $(this).children('.bot-mobile').removeClass('non-visible');
@@ -212,6 +212,8 @@
                 $("#slider1-noactive").removeClass('non-visible');
                 $("#slider8-active").removeClass('non-visible');
                 $("#slider8-noactive").addClass('non-visible');
+                $(".slider1").addClass('non-visible');
+                $(".slider8").removeClass('non-visible');
                 //var x = document.getElementsByClassName("slider");
                 //x.style.background= "url(Zdjecia/PhotoDopierzemyTo/slajder_1.png)";
                 licznik = 7;
@@ -221,6 +223,8 @@
                 $("#slider2-noactive").removeClass('non-visible');
                 $("#slider1-active").removeClass('non-visible');
                 $("#slider1-noactive").addClass('non-visible');
+                $(".slider2").addClass('non-visible');
+                $(".slider1").removeClass('non-visible');
                 var x = document.getElementsByClassName("slider")[0];
                 x.style.background = "url(../Content/Zdjecia/PhotoDopierzemyTo/slajder_1.png)";
                 licznik--;
@@ -230,6 +234,8 @@
                 $("#slider3-noactive").removeClass('non-visible');
                 $("#slider2-active").removeClass('non-visible');
                 $("#slider2-noactive").addClass('non-visible');
+                $(".slider3").addClass('non-visible');
+                $(".slider2").removeClass('non-visible');
                 var x = document.getElementsByClassName("slider")[0];
                 x.style.background = "url(../Content/Zdjecia/PhotoDopierzemyTo/davide-cantelli-240809.jpg)";
                 licznik--;
@@ -239,6 +245,8 @@
                 $("#slider4-noactive").removeClass('non-visible');
                 $("#slider3-active").removeClass('non-visible');
                 $("#slider3-noactive").addClass('non-visible');
+                $(".slider4").addClass('non-visible');
+                $(".slider3").removeClass('non-visible');
                 var x = document.getElementsByClassName("slider")[0];
                 x.style.background = "url(../Content/Zdjecia/PhotoDopierzemyTo/Office-min.jpg)";
                 licznik--;
@@ -248,6 +256,8 @@
                 $("#slider5-noactive").removeClass('non-visible');
                 $("#slider4-active").removeClass('non-visible');
                 $("#slider4-noactive").addClass('non-visible');
+                $(".slider5").addClass('non-visible');
+                $(".slider4").removeClass('non-visible');
                 licznik--;
                 break;
 
@@ -256,6 +266,8 @@
                 $("#slider6-noactive").removeClass('non-visible');
                 $("#slider5-active").removeClass('non-visible');
                 $("#slider5-noactive").addClass('non-visible');
+                $(".slider6").addClass('non-visible');
+                $(".slider5").removeClass('non-visible');
                 licznik--;
                 break;
             case 6:
@@ -263,6 +275,8 @@
                 $("#slider7-noactive").removeClass('non-visible');
                 $("#slider6-active").removeClass('non-visible');
                 $("#slider6-noactive").addClass('non-visible');
+                $(".slider7").addClass('non-visible');
+                $(".slider6").removeClass('non-visible');
                 licznik--;
                 break;
             case 7:
@@ -270,6 +284,8 @@
                 $("#slider8-noactive").removeClass('non-visible');
                 $("#slider7-active").removeClass('non-visible');
                 $("#slider7-noactive").addClass('non-visible');
+                $(".slider8").addClass('non-visible');
+                $(".slider7").removeClass('non-visible');
                 licznik--;
                 break;
             
@@ -286,6 +302,8 @@
                 $("#slider1-noactive").removeClass('non-visible');
                 $("#slider2-active").removeClass('non-visible');
                 $("#slider2-noactive").addClass('non-visible');
+                $(".slider1").addClass('non-visible');
+                $(".slider2").removeClass('non-visible');
                 var x = document.getElementsByClassName("slider")[0];
                 x.style.background = "url(../Content/Zdjecia/PhotoDopierzemyTo/davide-cantelli-240809.jpg)";
                 
@@ -296,6 +314,8 @@
                 $("#slider2-noactive").removeClass('non-visible');
                 $("#slider3-active").removeClass('non-visible');
                 $("#slider3-noactive").addClass('non-visible');
+                $(".slider2").addClass('non-visible');
+                $(".slider3").removeClass('non-visible');
                 var x = document.getElementsByClassName("slider")[0];
                 x.style.background = "url(../Content/Zdjecia/PhotoDopierzemyTo/Office-min.jpg)";
                 licznik++;
@@ -305,6 +325,8 @@
                 $("#slider3-noactive").removeClass('non-visible');
                 $("#slider4-active").removeClass('non-visible');
                 $("#slider4-noactive").addClass('non-visible');
+                $(".slider3").addClass('non-visible');
+                $(".slider4").removeClass('non-visible');
                 licznik++;
                 break;
             case 3:
@@ -312,6 +334,8 @@
                 $("#slider4-noactive").removeClass('non-visible');
                 $("#slider5-active").removeClass('non-visible');
                 $("#slider5-noactive").addClass('non-visible');
+                $(".slider4").addClass('non-visible');
+                $(".slider5").removeClass('non-visible');
                 licznik++;
                 break;
             case 4:
@@ -319,6 +343,8 @@
                 $("#slider5-noactive").removeClass('non-visible');
                 $("#slider6-active").removeClass('non-visible');
                 $("#slider6-noactive").addClass('non-visible');
+                $(".slider5").addClass('non-visible');
+                $(".slider6").removeClass('non-visible');
                 licznik++;
                 break;
 
@@ -327,6 +353,8 @@
                 $("#slider6-noactive").removeClass('non-visible');
                 $("#slider7-active").removeClass('non-visible');
                 $("#slider7-noactive").addClass('non-visible');
+                $(".slider6").addClass('non-visible');
+                $(".slider7").removeClass('non-visible');
                 licznik++;
                 break;
             case 6:
@@ -334,6 +362,8 @@
                 $("#slider7-noactive").removeClass('non-visible');
                 $("#slider8-active").removeClass('non-visible');
                 $("#slider8-noactive").addClass('non-visible');
+                $(".slider7").addClass('non-visible');
+                $(".slider8").removeClass('non-visible');
                 licznik++;
                 break;
             case 7:
@@ -341,6 +371,8 @@
                 $("#slider8-noactive").removeClass('non-visible');
                 $("#slider1-active").removeClass('non-visible');
                 $("#slider1-noactive").addClass('non-visible');
+                $(".slider8").addClass('non-visible');
+                $(".slider1").removeClass('non-visible');
                 licznik = 0;
                 break;
             

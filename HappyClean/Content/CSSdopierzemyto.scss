@@ -357,9 +357,10 @@ nav {
  height:40vh;
     display:flex;
     flex-direction:column;
-    justify-content:space-around;
-    align-items:flex-start;
+   
+    
 }
+
 .slider-leftside{
     display:flex;
     justify-content:center;
@@ -393,22 +394,31 @@ nav {
     font-family:Metropolis-semibold;
     color:white;
 
-
+    line-height:50px ;
     font-size:37px;
+    margin-bottom:10px;
 }
+
 .slider-center-text-big-type{
     font-family:Metropolis-semibold;
     color:white;
 
+    line-height:50px ;
     font-size:37px;
+    margin-bottom:40px;
+
 }
 .slider-center-button{
+    width:220px;
+    margin-top:auto;
+    margin-bottom:20px;
+    margin-left:0px;
     font-family:Metropolis-medium;
     color:white;
     font-size:15px;
      padding: 17.5px 17px 17.5px 17px;
     border:none;
-   
+   align-content:flex-end;
     border-radius:28px;
     background-color:#4487F4;
       cursor:pointer;
@@ -419,8 +429,11 @@ nav {
   
 }
 .slider-center-check{
+     margin-left:0px;
+    margin-top:20px;
+    margin-bottom:20px;
     display:flex;
-    justify-content:center;
+ 
     align-items:center;
     svg{
         padding:0 7px 0 7px;
