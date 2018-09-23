@@ -200,7 +200,7 @@
     <None Include="compilerconfig.json.defaults">
       <DependentUpon>compilerconfig.json</DependentUpon>
     </None>
-    <Content Include="Views\Home\DopierzemyTo.cshtml" />
+    <Content Include="Views\Home\main.cshtml" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
     <Content Include="Views\_ViewStart.cshtml" />
@@ -209,6 +209,12 @@
     <Content Include="Views\Home\kompleksowe.cshtml" />
     <Content Include="Views\Home\tapicerki.cshtml" />
     <Content Include="Views\Home\cennikmobile.cshtml" />
+    <Content Include="Views\Home\mainmobile.cshtml" />
+    <Content Include="Views\Home\kompleksowemobile.cshtml" />
+    <Content Include="Views\Home\polimeryzacjamobile.cshtml" />
+    <Content Include="Views\Home\tapicerkimobile.cshtml" />
+    <Content Include="Views\Home\wykladzinymobile.cshtml" />
+    <Content Include="Views\Home\kontaktmobile.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

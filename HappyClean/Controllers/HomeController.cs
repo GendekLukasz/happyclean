@@ -8,13 +8,35 @@ namespace HappyClean.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult DopierzemyTo()
+        public ActionResult main()
         {
-            return View();
+            string userAgent = Request.UserAgent;
+            if (userAgent.Contains("BlackBerry")
+              || (userAgent.Contains("iPhone") || (userAgent.Contains("Android"))))
+            {
+                return View("mainmobile");
+
+            }
+            else
+            {
+                return View("mainmobile");
+                //return View("main");
+            }
         }
         public ActionResult kontakt()
         {
-            return View();
+            string userAgent = Request.UserAgent;
+            if (userAgent.Contains("BlackBerry")
+              || (userAgent.Contains("iPhone") || (userAgent.Contains("Android"))))
+            {
+                return View("kontaktmobile");
+
+            }
+            else
+            {
+                return View("kontaktmobile");
+                //return View("kontakt");
+            }
         }
         public ActionResult cennik()
         {
@@ -35,19 +57,63 @@ namespace HappyClean.Controllers
         }
         public ActionResult polimeryzacja()
         {
-            return View();
+            string userAgent = Request.UserAgent;
+            if (userAgent.Contains("BlackBerry")
+              || (userAgent.Contains("iPhone") || (userAgent.Contains("Android"))))
+            {
+                return View("polimeryzacjamobile");
+
+            }
+            else
+            {
+                //return View("cennikmobile");
+                return View("polimeryzacja");
+            }
         }
         public ActionResult wykladziny()
         {
-            return View();
+            string userAgent = Request.UserAgent;
+            if (userAgent.Contains("BlackBerry")
+              || (userAgent.Contains("iPhone") || (userAgent.Contains("Android"))))
+            {
+                return View("wykladzinymobile");
+
+            }
+            else
+            {
+                return View("wykladzinymobile");
+                //return View("wykladziny");
+            }
         }
         public ActionResult kompleksowe()
         {
-            return View();
+            string userAgent = Request.UserAgent;
+            if (userAgent.Contains("BlackBerry")
+              || (userAgent.Contains("iPhone") || (userAgent.Contains("Android"))))
+            {
+                return View("kompleksowemobile");
+
+            }
+            else
+            {
+                //return View("cennikmobile");
+                return View("kompleksowe");
+            }
         }
         public ActionResult tapicerki()
         {
-            return View();
+            string userAgent = Request.UserAgent;
+            if (userAgent.Contains("BlackBerry")
+              || (userAgent.Contains("iPhone") || (userAgent.Contains("Android"))))
+            {
+                return View("tapicerkimobile");
+
+            }
+            else
+            {
+                //return View("cennikmobile");
+                return View("tapicerki");
+            }
         }
     }
 }
