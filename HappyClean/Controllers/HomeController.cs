@@ -19,6 +19,21 @@ namespace HappyClean.Controllers
             }
             else
             {
+                //return View("mainmobile");
+                return View("main");
+            }
+        }
+        public ActionResult mainmobile()
+        {
+            string userAgent = Request.UserAgent;
+            if (userAgent.Contains("BlackBerry")
+              || (userAgent.Contains("iPhone") || (userAgent.Contains("Android"))))
+            {
+                return View("mainmobile");
+
+            }
+            else
+            {
                 return View("mainmobile");
                 //return View("main");
             }
@@ -34,8 +49,8 @@ namespace HappyClean.Controllers
             }
             else
             {
-                return View("kontaktmobile");
-                //return View("kontakt");
+                //return View("kontaktmobile");
+                return View("kontakt");
             }
         }
         public ActionResult cennik()
