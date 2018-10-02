@@ -283,13 +283,13 @@ nav {
   display: none !important; }
 
 .slidernonmobile .slider {
+  background-size: 100%;
   display: flex;
   margin-top: 74.5px;
   width: 100%;
   height: 350px;
-  background: url(Zdjecia/PhotoDopierzemyTo/slajder_1.png);
-  background-position: center;
-  background-size: cover;
+  background: url(Zdjecia/CurrentPhotos/polimer_glowna1.jpg);
+  background-size: 100% !important;
   border-radius: 5px; }
 
 .slidernonmobile .slider-center {
@@ -370,8 +370,7 @@ nav {
   width: 100%;
   height: 300px;
   background: url(Zdjecia/PhotoDopierzemyTo/slajder_1.png);
-  background-position: center;
-  background-size: cover;
+  background-size: auto !important;
   border-radius: 5px; }
 
 .slidermobile .slider-center {
@@ -910,7 +909,6 @@ input[type=text] {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
   border-bottom: 2px solid #2F3E4C;
   margin-top: 50px; }
 
@@ -928,19 +926,19 @@ input[type=text] {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between; }
+  justify-content: center; }
 
 .left {
   display: flex;
   margin-left: 20px;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-right: auto; }
 
 .right {
   display: flex;
   margin-right: 20px;
-  align-items: center;
-  justify-content: space-between; }
+  align-items: center; }
 
 .link-footer {
   text-decoration: none;
@@ -1373,17 +1371,21 @@ input[type=text] {
   align-items: center; }
 
 .gallery-center {
-  width: 80%;
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
-  align-items: center; }
-  .gallery-center img {
-    margin: 10px 10px 10px 10px; }
+  align-items: center;
+  flex-direction: row; }
+  .gallery-center div {
+    margin: 10px; }
+    .gallery-center div img {
+      width: 100%; }
 
 .gallery-left {
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin: 15px;
   height: 90px; }
 
 .gallery-left:hover {
@@ -1392,7 +1394,9 @@ input[type=text] {
 .gallery-right {
   display: flex;
   align-items: center;
-  height: 90px; }
+  height: 90px;
+  justify-content: center;
+  margin: 15px; }
 
 .gallery-right:hover {
   cursor: pointer; }

@@ -214,8 +214,8 @@
                 $("#slider8-noactive").addClass('non-visible');
                 $(".slider1").addClass('non-visible');
                 $(".slider8").removeClass('non-visible');
-                //var x = document.getElementsByClassName("slider");
-                //x.style.background= "url(Zdjecia/PhotoDopierzemyTo/slajder_1.png)";
+                var x = document.getElementsByClassName("slider")[0];
+                x.style.background = "url(../Content/Zdjecia/CurrentPhotos/wykladzina_glowna1.jpg)";
                 licznik = 7;
                 break;
             case 1:
@@ -226,7 +226,7 @@
                 $(".slider2").addClass('non-visible');
                 $(".slider1").removeClass('non-visible');
                 var x = document.getElementsByClassName("slider")[0];
-                x.style.background = "url(../Content/Zdjecia/PhotoDopierzemyTo/slajder_1.png)";
+                x.style.background = "url(../Content/Zdjecia/CurrentPhotos/polimer_glowna1.jpg)";
                 licznik--;
                 break;
             case 2:
@@ -237,7 +237,7 @@
                 $(".slider3").addClass('non-visible');
                 $(".slider2").removeClass('non-visible');
                 var x = document.getElementsByClassName("slider")[0];
-                x.style.background = "url(../Content/Zdjecia/PhotoDopierzemyTo/davide-cantelli-240809.jpg)";
+                x.style.background = "url(../Content/Zdjecia/CurrentPhotos/kompleksowe_glowna1.jpg)";
                 licznik--;
                 break;
             case 3:
@@ -248,7 +248,7 @@
                 $(".slider4").addClass('non-visible');
                 $(".slider3").removeClass('non-visible');
                 var x = document.getElementsByClassName("slider")[0];
-                x.style.background = "url(../Content/Zdjecia/PhotoDopierzemyTo/Office-min.jpg)";
+                x.style.background = "url(../Content/Zdjecia/CurrentPhotos/pranie_glowna1.jpg)";
                 licznik--;
                 break;
             case 4:
@@ -258,6 +258,8 @@
                 $("#slider4-noactive").addClass('non-visible');
                 $(".slider5").addClass('non-visible');
                 $(".slider4").removeClass('non-visible');
+                var x = document.getElementsByClassName("slider")[0];
+                x.style.background = "url(../Content/Zdjecia/CurrentPhotos/wykladzina_glowna1.jpg)";
                 licznik--;
                 break;
 
@@ -268,6 +270,8 @@
                 $("#slider5-noactive").addClass('non-visible');
                 $(".slider6").addClass('non-visible');
                 $(".slider5").removeClass('non-visible');
+                var x = document.getElementsByClassName("slider")[0];
+                x.style.background = "url(../Content/Zdjecia/CurrentPhotos/polimer_glowna2.jpg)";
                 licznik--;
                 break;
             case 6:
@@ -277,6 +281,8 @@
                 $("#slider6-noactive").addClass('non-visible');
                 $(".slider7").addClass('non-visible');
                 $(".slider6").removeClass('non-visible');
+                var x = document.getElementsByClassName("slider")[0];
+                x.style.background = "url(../Content/Zdjecia/CurrentPhotos/kompleksowe_glowna2.jpg)";
                 licznik--;
                 break;
             case 7:
@@ -286,6 +292,8 @@
                 $("#slider7-noactive").addClass('non-visible');
                 $(".slider8").addClass('non-visible');
                 $(".slider7").removeClass('non-visible');
+                var x = document.getElementsByClassName("slider")[0];
+                x.style.background = "url(../Content/Zdjecia/CurrentPhotos/pranie_glowna2.jpg)";
                 licznik--;
                 break;
             
@@ -305,7 +313,7 @@
                 $(".slider1").addClass('non-visible');
                 $(".slider2").removeClass('non-visible');
                 var x = document.getElementsByClassName("slider")[0];
-                x.style.background = "url(../Content/Zdjecia/PhotoDopierzemyTo/davide-cantelli-240809.jpg)";
+                x.style.background = "url(../Content/Zdjecia/CurrentPhotos/kompleksowe_glowna1.jpg)";
                 
                 licznik++;
                 break;
@@ -317,7 +325,7 @@
                 $(".slider2").addClass('non-visible');
                 $(".slider3").removeClass('non-visible');
                 var x = document.getElementsByClassName("slider")[0];
-                x.style.background = "url(../Content/Zdjecia/PhotoDopierzemyTo/Office-min.jpg)";
+                x.style.background = "url(../Content/Zdjecia/CurrentPhotos/pranie_glowna1.jpg)";
                 licznik++;
                 break;
             case 2:
@@ -327,6 +335,9 @@
                 $("#slider4-noactive").addClass('non-visible');
                 $(".slider3").addClass('non-visible');
                 $(".slider4").removeClass('non-visible');
+                var x = document.getElementsByClassName("slider")[0];
+                x.style.background = "url(../Content/Zdjecia/CurrentPhotos/wykladzina_glowna1.jpg)";
+
                 licznik++;
                 break;
             case 3:
@@ -336,6 +347,8 @@
                 $("#slider5-noactive").addClass('non-visible');
                 $(".slider4").addClass('non-visible');
                 $(".slider5").removeClass('non-visible');
+                var x = document.getElementsByClassName("slider")[0];
+                x.style.background = "url(../Content/Zdjecia/CurrentPhotos/polimer_glowna2.jpg)";
                 licznik++;
                 break;
             case 4:
@@ -345,6 +358,8 @@
                 $("#slider6-noactive").addClass('non-visible');
                 $(".slider5").addClass('non-visible');
                 $(".slider6").removeClass('non-visible');
+                var x = document.getElementsByClassName("slider")[0];
+                x.style.background = "url(../Content/Zdjecia/CurrentPhotos/kompleksowe_glowna2.jpg)";
                 licznik++;
                 break;
 
@@ -355,6 +370,8 @@
                 $("#slider7-noactive").addClass('non-visible');
                 $(".slider6").addClass('non-visible');
                 $(".slider7").removeClass('non-visible');
+                var x = document.getElementsByClassName("slider")[0];
+                x.style.background = "url(../Content/Zdjecia/CurrentPhotos/pranie_glowna2.jpg)";
                 licznik++;
                 break;
             case 6:
@@ -364,6 +381,8 @@
                 $("#slider8-noactive").addClass('non-visible');
                 $(".slider7").addClass('non-visible');
                 $(".slider8").removeClass('non-visible');
+                var x = document.getElementsByClassName("slider")[0];
+                x.style.background = "url(../Content/Zdjecia/CurrentPhotos/wykladzina_glowna2.jpg)";
                 licznik++;
                 break;
             case 7:
@@ -373,6 +392,8 @@
                 $("#slider1-noactive").addClass('non-visible');
                 $(".slider8").addClass('non-visible');
                 $(".slider1").removeClass('non-visible');
+                var x = document.getElementsByClassName("slider")[0];
+                x.style.background = "url(../Content/Zdjecia/CurrentPhotos/polimer_glowna1.jpg)";
                 licznik = 0;
                 break;
             
